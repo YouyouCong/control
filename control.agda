@@ -308,7 +308,7 @@ i. By d, g, and h, compatible μβ μ₀ μα does not hold for Fk₂. e₂.
 -}
 
 -- 2 control, 2/0 resumptions (terminating, ill-typed)
--- < (Fk₁. 1); (Fk₂. k₂ 1; k₂ 1) >
+-- < (Fk₁. k₁ 1; k₁ 1); (Fk₂. 1) >
 exp6 : {var : Ty → Set} {α : Ty} {μα : Tr} →
        Exp var Nat μα α μα α
 exp6 =
